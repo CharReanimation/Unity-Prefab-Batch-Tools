@@ -36,13 +36,13 @@ Supports:
 
 ## 📸 Preview
 
-*Tools Menu*
+*Tools Menu*  
 ![Tools Menu](Preview/ToolsMenu.png)
 
-*Prefab Adder*
+*Prefab Adder*  
 ![Prefab Adder](Preview/PrefabAdder.png)
 
-*Prefab Deleter*
+*Prefab Deleter*  
 ![Prefab Deleter](Preview/PrefabDeleter.png)
 
 ## 📦 Installation
