@@ -1,5 +1,7 @@
 # Prefab 批处理工具
 
+[English](README.md) | [简体中文](README_CN.md)
+
 一个简单而实用的 Unity Editor Prefab 批处理工具集。
 
 主要用于快速向多个选中的 GameObject 添加 Prefab，或批量删除选中对象下的 Prefab Instance，减少重复的 Hierarchy 操作。
@@ -32,6 +34,17 @@
 - 支持 Unity Undo
 - 显示删除数量
 
+## 📸 预览
+
+*Tools 菜单*
+![Tools 菜单](Preview/ToolsMenu.png)
+
+*Prefab Adder*
+![Prefab Adder](Preview/PrefabAdder.png)
+
+*Prefab Deleter*
+![Prefab Deleter](Preview/PrefabDeleter.png)
+
 ## 📦 安装
 
 将脚本放入 Unity 项目的 `Editor` 文件夹中，例如：
@@ -39,5 +52,62 @@
 ```text
 Assets/
 └── Editor/
-    ├── PrefabAdder.cs
-    └── PrefabDeleter.cs
+    └── PrefabBatchAdder/
+        ├── PrefabAdder.cs
+        └── PrefabDeleter.cs
+```
+
+无需任何额外的 Package 或依赖。
+
+导入脚本后，工具将出现在 Unity Editor 菜单中：
+
+```text
+Tools
+├── Prefab Adder
+└── Prefab Deleter
+```
+
+## ↩️ Undo 支持
+
+两个工具均支持 Unity 的 Undo 系统。
+
+### Prefab Adder
+
+新创建的 Prefab Instance 可通过 `Ctrl + Z` 或 **Edit > Undo** 撤销。
+
+### Prefab Deleter
+
+被删除的 Prefab Instance 同样可以通过 Unity 的 Undo 系统恢复。
+
+## 🎯 使用场景
+
+Prefab 批处理工具适用于：
+
+- 关卡设计（Level Design）
+- 环境搭建
+- 场景整理
+- 批量场景编辑
+- 添加重复的环境元素
+- 添加装饰物或交互物体
+- 快速清理 Prefab Instance
+- 减少重复的 Hierarchy 操作
+
+## 📋 环境要求
+
+- Unity 2022.3 或更高版本
+- Unity Editor
+- 兼容 URP
+- 兼容 Built-in Render Pipeline
+- 仅限 Editor 使用的工具
+
+## ⚠️ 注意事项
+
+- 这些工具面向 Unity Editor 工作流，应放置在 `Editor` 文件夹中。
+- 工具作用于 Unity Hierarchy 中当前选中的 GameObject。
+- 无需任何运行时组件。
+
+## 📄 许可证
+
+本项目按“原样”提供。
+
+您可以根据本仓库附带的许可证自由使用和修改这些工具。
