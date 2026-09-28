@@ -108,6 +108,4 @@ Prefab Batch Tools can be useful for:
 
 ## 📄 License
 
-This project is provided as-is.
-
-You are free to use and modify these tools according to the license included with this repository.
+This project is licensed under the MIT License — see the [LICENSE](LICENSE) file for details.
