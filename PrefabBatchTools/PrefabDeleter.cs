@@ -11,7 +11,7 @@ public class PrefabDeleter : EditorWindow
     private bool includeNestedChildren = false;
 
 
-    [MenuItem("Tools/Prefab Deleter")]
+    [MenuItem("Tools/Prefab Batch Tools/Prefab Deleter")]
     private static void OpenWindow()
     {
         GetWindow<PrefabDeleter>("Prefab Deleter");

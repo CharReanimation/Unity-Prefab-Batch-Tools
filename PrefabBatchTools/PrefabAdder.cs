@@ -9,7 +9,7 @@ public class PrefabAdder : EditorWindow
     private bool allowDuplicate = false;
 
 
-    [MenuItem("Tools/Prefab Adder")]
+    [MenuItem("Tools/Prefab Batch Tools/Prefab Adder")]
     private static void OpenWindow()
     {
         GetWindow<PrefabAdder>("Prefab Adder");

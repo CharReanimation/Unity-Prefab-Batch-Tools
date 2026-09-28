@@ -52,7 +52,7 @@ Place the scripts inside an `Editor` folder in your Unity project:
 ```text
 Assets/
 └── Editor/
-    └── PrefabBatchAdder/
+    └── PrefabBatchTools/
         ├── PrefabAdder.cs
         └── PrefabDeleter.cs
 ```

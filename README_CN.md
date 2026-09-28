@@ -52,7 +52,7 @@
 ```text
 Assets/
 └── Editor/
-    └── PrefabBatchAdder/
+    └── PrefabBatchTools/
         ├── PrefabAdder.cs
         └── PrefabDeleter.cs
 ```
